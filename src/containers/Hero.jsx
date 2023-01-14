@@ -20,7 +20,7 @@ const Hero = () => {
 						I’m Wendy Enyinnaya
 					</h1>
 				</div>
-				<h2 className="flex items-center space-x-3 font-bold text-3xl">
+				<h2 className="flex items-center space-x-3 font-bold text-2xl xsm:text3xl">
 					<span className="gradient-text">A UI/UX Designer</span>
 					<div>
 						<img src={coderGirl} alt="coding girl" />
