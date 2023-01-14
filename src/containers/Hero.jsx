@@ -7,7 +7,7 @@ import ContactLink from "../components/ContactLink";
 
 const Hero = () => {
 	return (
-		<div>
+		<section>
 			<div className="flex flex-col space-y-8">
 				<div className="space-y-6">
 					<h4 className="flex items-center font-semibold text-xl">
@@ -41,7 +41,7 @@ const Hero = () => {
 					</ContactLink>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 
