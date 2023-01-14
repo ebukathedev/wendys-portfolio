@@ -9,11 +9,11 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<main className="container mx-auto bg-red-500 mt-12 hidden">
+			<main className="container mx-auto mt-12  px-9 md:px-10 xl:px-24">
 				<Routes>
-					<Route path="/" element={<Home />}></Route>
-					<Route path="/about" element={<About />}></Route>
-					<Route path="/projects" element={<Projects />}></Route>
+					<Route path="/" element={<Home />} />
+					<Route path="/about" element={<About />} />
+					<Route path="/projects" element={<Projects />} />
 				</Routes>
 			</main>
 		</>

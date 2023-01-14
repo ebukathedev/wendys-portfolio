@@ -3,6 +3,7 @@ module.exports = {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		screens: {
+			xsm: "428px",
 			sm: "480px",
 			md: "768px",
 			lg: "976px",
@@ -12,6 +13,7 @@ module.exports = {
 			colors: {
 				paleWhite: "#E9F5FF",
 				darkBlue: "#09172E",
+				blurryBlue:"#202C41",
 				orange: "#F15A24",
 				discover: "#FFAB5E",
 				define: "#3F1F2C",
