@@ -52,7 +52,7 @@ const Hero = () => {
 				<div className="absolute top-0 left-1/2 transform -translate-x-1/2 bg-gradient-bg rounded-full blur-2xl w-1/2 h-full md:w-1/3 xl:w-1/4"></div>
 				<div className="flex justify-center">
 					<img
-						src={avatar}
+						src="https://ik.imagekit.io/ebukathedev/avatar.svg"
 						alt="3d avatar"
 						className="relative z-10 md:w-36 lg:w-44"
 					/>

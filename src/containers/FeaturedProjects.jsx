@@ -1,6 +1,6 @@
 import React from "react";
 import HomeSection from "../components/HomeSection";
-import rondo from "../assets/images/rondo.svg";
+// import rondo from "../assets/images/rondo.svg";
 
 const FeaturedProjects = () => {
 	return (
@@ -14,7 +14,10 @@ const FeaturedProjects = () => {
 					{/* single project */}
 					<div className="flex flex-col space-y-6">
 						<div>
-							<img src={rondo} alt="fintech app" />
+							<img
+								src="https://ik.imagekit.io/ebukathedev/rondo.svg"
+								alt="fintech app"
+							/>
 						</div>
 						{/* text container */}
 						<div className="flex flex-col space-y-8 text-veryPaleWhite">
@@ -35,7 +38,10 @@ const FeaturedProjects = () => {
 									financial operations and achieve financial
 									goals.
 								</p>
-								<a href="#" className="flex p-5 text-white border">
+								<a
+									href="#"
+									className="flex p-5 text-white border"
+								>
 									<span className="text-lg font-bold">
 										View message
 									</span>
@@ -50,3 +56,8 @@ const FeaturedProjects = () => {
 };
 
 export default FeaturedProjects;
+
+/*https://ik.imagekit.io/ebukathedev/avatar.svg 
+https://ik.imagekit.io/ebukathedev/rondo.svg
+https://ik.imagekit.io/ebukathedev/keo_wallet.svg
+https://ik.imagekit.io/ebukathedev/zukky.svg*/
