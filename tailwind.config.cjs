@@ -12,14 +12,15 @@ module.exports = {
 		extend: {
 			colors: {
 				paleWhite: "#E9F5FF",
+				veryPaleWhite:"#E3E4E6",
 				darkBlue: "#09172E",
-				blurryBlue:"#202C41",
+				blurryBlue: "#202C41",
 				orange: "#F15A24",
-				discover: "#FFAB5E",
-				define: "#3F1F2C",
-				ideate: "#22343C",
-				strategize: "#293836",
-				implement: "#22343C",
+				discover: "#FFAB5E1A",
+				define: "#3F1F2C6B",
+				ideate: "#22343C66",
+				strategize: "#2938366B",
+				implement: "#22343C82",
 			},
 			backgroundImage: {
 				"gradient-text":
@@ -28,7 +29,7 @@ module.exports = {
 					"linear-gradient(138.64deg, rgba(89, 34, 98, 0.72) 15.69%, rgba(144, 185, 220, 0.45) 83.8%)",
 			},
 			fontFamily: {
-				raleway: "Raleway",
+				raleway: ["Raleway", "sans-serif"],
 			},
 		},
 	},

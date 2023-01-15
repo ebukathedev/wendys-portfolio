@@ -9,6 +9,9 @@
 		font-family: "Raleway";
 		src: url("src/assets/font/Raleway.ttf");
 	}
+	a {
+		@apply font-raleway;
+	}
 }
 
 @layer components {
