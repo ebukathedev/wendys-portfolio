@@ -12,8 +12,9 @@ module.exports = {
 		extend: {
 			colors: {
 				paleWhite: "#E9F5FF",
-				veryPaleWhite:"#E3E4E6",
+				veryPaleWhite: "#E3E4E6",
 				darkBlue: "#09172E",
+				lighterDarkBlue: "#0E2345",
 				blurryBlue: "#202C41",
 				orange: "#F15A24",
 				discover: "#FFAB5E1A",
@@ -30,6 +31,7 @@ module.exports = {
 			},
 			fontFamily: {
 				raleway: ["Raleway", "sans-serif"],
+				workSans: ["Work Sans", "sans-serif"],
 			},
 		},
 	},

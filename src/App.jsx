@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Navbar from "./containers/Navbar";
+import Footer from "./containers/Footer";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 					<Route path="/projects" element={<Projects />} />
 				</Routes>
 			</main>
+			<Footer />
 		</>
 	);
 }
