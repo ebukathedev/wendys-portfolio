@@ -7,13 +7,13 @@
 // import zukkyLg from "../assets/images/zukky_lg.svg";
 
 const images = {
-	rondo: "https://ik.imagekit.io/ebukathedev/rondo.svg",
-	rondoLg: "https://ik.imagekit.io/ebukathedev/rondo_lg.svg",
-	zukky: "https://ik.imagekit.io/ebukathedev/zukky.svg",
-	zukkyLg: "https://ik.imagekit.io/ebukathedev/zukky_lg.svg",
-	keoWallet: "https://ik.imagekit.io/ebukathedev/keo_wallet.svg",
-	keoWalletLg: "https://ik.imagekit.io/ebukathedev/keo_wallet_lg.svg",
-	obiwezy: "https://ik.imagekit.io/ebukathedev/obiwezy.svg",
+	rondo: "https://ik.imagekit.io/ebukathedev/rondo.png",
+	rondoLg: "https://ik.imagekit.io/ebukathedev/rondo_lg.png",
+	zukky: "https://ik.imagekit.io/ebukathedev/zukky.png",
+	zukkyLg: "https://ik.imagekit.io/ebukathedev/zukky_lg.png",
+	keoWallet: "https://ik.imagekit.io/ebukathedev/keo_wallet.png",
+	keoWalletLg: "https://ik.imagekit.io/ebukathedev/keo_wallet_lg.png",
+	obiwezy: "https://ik.imagekit.io/ebukathedev/obiwezy.png",
 };
 
 const projectData = [
