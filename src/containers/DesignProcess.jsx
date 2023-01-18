@@ -19,6 +19,7 @@ const DesignProcess = () => {
 							icon={obj.icon}
 							bgColor={obj.bgColor}
 							name={obj.name}
+							duration={obj.duration}
 						/>
 					))}
 				</div>

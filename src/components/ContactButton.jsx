@@ -1,6 +1,6 @@
 import React from "react";
 
-const buttonStyles = `font-medium text-lg text-white hover:text-orange transition-colors ease-in-out py-2 px-5 bg-blurryBlue rounded-xl`;
+const buttonStyles = `font-medium text-lg text-white hover:text-orange transition-colors ease-in-out py-2 px-5 bg-blurryBlue rounded-xl xl:text-2xl`;
 
 const ContactButton = ({ additionalClass }) => {
 	return (

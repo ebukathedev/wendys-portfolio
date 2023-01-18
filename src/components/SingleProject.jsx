@@ -1,4 +1,6 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import { BsChevronDoubleRight } from "react-icons/bs";
 
 const SingleProject = ({
@@ -10,10 +12,17 @@ const SingleProject = ({
 	link,
 	even,
 }) => {
+	useEffect(() => {
+		AOS.init();
+	}, []);
 	//
 	return (
 		<div className="flex even:md:flex-row-reverse md:flex-row flex-col space-y-6 md:space-y-0 md:gap-x-4 lg:gap-x-5 xl:gap-x-6 md:items-center lg:items-stretch">
-			<div className="md:w-1/2">
+			<div
+				className="md:w-1/2"
+				data-aos="fade-up"
+				data-aos-duration="1000"
+			>
 				<img src={imgSm} alt={title} className="md:hidden w-full" />
 
 				<img
@@ -24,7 +33,11 @@ const SingleProject = ({
 			</div>
 			{/* text container */}
 			<div className="md:w-1/2">
-				<div className="flex flex-col space-y-7 text-veryPaleWhite md:max-w-md xl:max-w-xl md:h-full lg:space-y-0 lg:justify-evenly">
+				<div
+					className="flex flex-col space-y-7 text-veryPaleWhite md:max-w-md xl:max-w-xl md:h-full lg:space-y-0 lg:justify-evenly"
+					data-aos="fade-down"
+					data-aos-duration="1000"
+				>
 					<div className="flex flex-col space-y-7 md:space-y-1">
 						<h5 className="uppercase font-semibold text-sm font-workSans tracking-wider xl:text-xl">
 							{title}
