@@ -3,19 +3,21 @@ import HomeSection from "../components/HomeSection";
 import projectData from "../components/projectData";
 import SingleProject from "../components/SingleProject";
 
-const FeaturedProjects = () => {
+const FeaturedProjects = ({ children }) => {
 	return (
 		<section className="mb-32">
 			<HomeSection
 				title="Featured Projects"
-				spacing="space-y-8 xsm:space-y-14 xl:space-y-20"
+				spacing="space-y-9 xsm:space-y-14 md:space-y-20 xl:space-y-28"
 			>
+				{children}
 				{/* projects container */}
-				<div className="flex flex-col space-y-28">
+				<div className="flex flex-col space-y-28 xl:space-y-40">
 					{projectData.map((obj) => (
 						<SingleProject
 							key={obj.id}
-							img={obj.img}
+							imgSm={obj.imgSm}
+							imgLg={obj.imgLg}
 							title={obj.title}
 							type={obj.type}
 							description={obj.description}

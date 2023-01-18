@@ -1,12 +1,16 @@
-import rondo from "../assets/images/rondo.svg";
 import keoWallet from "../assets/images/keo_wallet.svg";
-import zukky from "../assets/images/zukky.svg";
+import keoWalletLg from "../assets/images/keo_wallet_lg.svg";
 import obiwezy from "../assets/images/obiwezy.svg";
+import rondo from "../assets/images/rondo.svg";
+import rondoLg from "../assets/images/rondo_lg.svg";
+import zukky from "../assets/images/zukky.svg";
+import zukkyLg from "../assets/images/zukky_lg.svg";
 
 const projectData = [
 	{
 		id: 1,
-		img: rondo,
+		imgSm: rondo,
+		imgLg: rondoLg,
 		title: "fintech app",
 		type: "mobile design",
 		description:
@@ -16,7 +20,8 @@ const projectData = [
 	},
 	{
 		id: 2,
-		img: zukky,
+		imgSm: zukky,
+		imgLg: zukkyLg,
 		title: "taxi app",
 		type: "mobile design/website",
 		description:
@@ -26,7 +31,8 @@ const projectData = [
 	},
 	{
 		id: 3,
-		img: keoWallet,
+		imgSm: keoWallet,
+		imgLg: keoWalletLg,
 		title: "fintech app",
 		type: "mobile design/website",
 		description:
@@ -36,7 +42,8 @@ const projectData = [
 	},
 	{
 		id: 4,
-		img: obiwezy,
+		imgSm: obiwezy,
+		imgLg: obiwezy,
 		title: "e-commerce app",
 		type: "mobile design/website",
 		description:

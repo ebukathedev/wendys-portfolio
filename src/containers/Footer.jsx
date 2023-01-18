@@ -3,7 +3,7 @@ import ContactButton from "../components/ContactButton";
 
 const Footer = () => {
 	return (
-		<footer className="pt-7 pb-4 bg-lighterDarkBlue">
+		<footer className="pt-7 pb-4 bg-lighterDarkBlue lg:pt-9 lg:pb-5">
 			<div className="flex flex-col items-center space-y-10">
 				<div className="flex flex-col items-center space-y-2">
 					<h3 className="font-semibold text-2xl md:text-4xl">
