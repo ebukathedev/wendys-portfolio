@@ -13,15 +13,15 @@ const AboutHero = () => {
 				<div className="flex flex-col space-y-20 md:space-y-32">
 					{/* hero */}
 					<div className="flex flex-col space-y-8 md:flex-row-reverse md:space-y-0 justify-between">
-						<div>
+						<div className="md:w-1/2">
 							<img
 								src={profilePic}
 								alt="profile pic"
-								className="w-full xsm:max-w-xs xsm:mx-auto"
+								className="w-full xsm:max-w-xs xsm:mx-auto xl:max-w-md"
 							/>
 						</div>
-						<div className="font-semibold text-[1rem] xsm:text-xl tracking-[4px] flex flex-col space-y-2 md:text-2xl md:space-y-0 md:flex-1 items-center">
-							<p className="hidden md:flex md:flex-col md:justify-between md:h-full">
+						<div className="font-semibold text-[1rem] xsm:text-xl tracking-[4px] flex flex-col space-y-2 md:text-2xl md:space-y-0 md:flex-1 items-center md:w-1/2 xl:text-3xl">
+							<p className="hidden md:flex md:flex-col md:justify-between md:h-full xl:justify-between">
 								<span>Designing </span>
 								<span>with </span>
 								<span>passion.</span>

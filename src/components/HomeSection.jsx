@@ -1,4 +1,3 @@
-import React from "react";
 import UnderlinedHeading from "./UnderlinedHeading";
 
 const HomeSection = ({ title, children, spacing }) => {
