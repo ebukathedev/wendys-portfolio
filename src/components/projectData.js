@@ -1,11 +1,3 @@
-// import keoWallet from "../assets/images/keo_wallet.svg";
-// import keoWalletLg from "../assets/images/keo_wallet_lg.svg";
-// import obiwezy from "../assets/images/obiwezy.svg";
-// import rondo from "../assets/images/rondo.svg";
-// import rondoLg from "../assets/images/rondo_lg.svg";
-// import zukky from "../assets/images/zukky.svg";
-// import zukkyLg from "../assets/images/zukky_lg.svg";
-
 const images = {
 	rondo: "https://ik.imagekit.io/ebukathedev/rondo.png",
 	rondoLg: "https://ik.imagekit.io/ebukathedev/rondo_lg.png",

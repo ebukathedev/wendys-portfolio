@@ -1,6 +1,5 @@
 import React from "react";
 import HomeSection from "../components/HomeSection";
-// import profilePic from "../assets/images/profile_pic.svg";
 import AboutSection from "./AboutSection";
 
 const profilePic = "https://ik.imagekit.io/ebukathedev/profile_pic.png";
