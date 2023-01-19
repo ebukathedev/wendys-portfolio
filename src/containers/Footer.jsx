@@ -3,7 +3,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ContactButton from "../components/ContactButton";
 
-const year = new Date().getFullYear();
+const year = new Date().getFullYear()
 
 const Footer = () => {
 	useEffect(() => {

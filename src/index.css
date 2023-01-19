@@ -5,10 +5,6 @@
 @tailwind utilities;
 
 @layer base {
-	@font-face {
-		font-family: "Raleway";
-		src: url("src/assets/font/Raleway.ttf");
-	}
 	a {
 		@apply font-raleway;
 	}
