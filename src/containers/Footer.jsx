@@ -3,6 +3,8 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ContactButton from "../components/ContactButton";
 
+const year = new Date().getFullYear();
+
 const Footer = () => {
 	useEffect(() => {
 		AOS.init();
@@ -26,7 +28,7 @@ const Footer = () => {
 				</div>
 				<ContactButton />
 				<span className="text-sm font-medium mt-4 xl:text-lg">
-					All rights reserved © Wendy Enyinnaya 2023
+					All rights reserved © Wendy Enyinnaya {year}
 				</span>
 			</div>
 		</footer>
