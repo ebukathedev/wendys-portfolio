@@ -3,11 +3,10 @@ import { CiLinkedin } from "react-icons/ci";
 import { CiMail } from "react-icons/ci";
 import wavingHand from "../assets/images/waving_hand.svg";
 import coderGirl from "../assets/images/coder_girl.svg";
+import avatar from "../assets/images/avatar.svg";
 import ContactLink from "../components/ContactLink";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-const avatar = "https://ik.imagekit.io/ebukathedev/avatar.svg";
 
 const Hero = () => {
 	useEffect(() => {

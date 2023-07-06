@@ -1,11 +1,16 @@
 const images = {
-	rondo: "https://ik.imagekit.io/ebukathedev/rondo.png",
-	rondoLg: "https://ik.imagekit.io/ebukathedev/rondo_lg.png",
-	zukky: "https://ik.imagekit.io/ebukathedev/zukky.png",
-	zukkyLg: "https://ik.imagekit.io/ebukathedev/zukky_lg.png",
-	keoWallet: "https://ik.imagekit.io/ebukathedev/keo_wallet.png",
-	keoWalletLg: "https://ik.imagekit.io/ebukathedev/keo_wallet_lg.png",
-	obiwezy: "https://ik.imagekit.io/ebukathedev/obiwezy.png",
+	rondo: "https://res.cloudinary.com/drtebxtdt/image/upload/v1688628160/wendys%20portfolio/thumbnails/rondo_sm_ok3pay.jpg",
+	rondoLg:
+		"https://res.cloudinary.com/drtebxtdt/image/upload/v1688628160/wendys%20portfolio/thumbnails/rondo_lg_m5xnvm.jpg",
+	zukky: "https://res.cloudinary.com/drtebxtdt/image/upload/v1688628161/wendys%20portfolio/thumbnails/zukky_sm_e8hudy.jpg",
+	zukkyLg:
+		"https://res.cloudinary.com/drtebxtdt/image/upload/v1688628161/wendys%20portfolio/thumbnails/zukky_lg_mckwrn.jpg",
+	keoWallet:
+		"https://res.cloudinary.com/drtebxtdt/image/upload/v1688628160/wendys%20portfolio/thumbnails/keo_sm_os3og1.jpg",
+	keoWalletLg:
+		"https://res.cloudinary.com/drtebxtdt/image/upload/v1688628160/wendys%20portfolio/thumbnails/keo_lg_ja8qll.jpg",
+	obiwezy:
+		"https://res.cloudinary.com/drtebxtdt/image/upload/v1688628160/wendys%20portfolio/thumbnails/obiwezy_bolvtq.jpg",
 };
 
 const projectData = [

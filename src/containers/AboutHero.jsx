@@ -4,7 +4,8 @@ import { useEffect } from "react";
 import HomeSection from "../components/HomeSection";
 import AboutSection from "./AboutSection";
 
-const profilePic = "https://ik.imagekit.io/ebukathedev/profile_pic.png";
+const profilePic =
+	"https://res.cloudinary.com/drtebxtdt/image/upload/v1688672315/wendys%20portfolio/thumbnails/profile-pic_lgdgur.png";
 const AboutHero = () => {
 	useEffect(() => {
 		AOS.init();

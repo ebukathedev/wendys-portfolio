@@ -23,12 +23,12 @@ const SingleProject = ({
 				data-aos="fade-up"
 				data-aos-duration="1000"
 			>
-				<img src={imgSm} alt={title} className="md:hidden w-full" />
+				<img src={imgSm} alt={title} className="md:hidden w-full rounded-lg" />
 
 				<img
 					src={imgLg}
 					alt={title}
-					className="hidden md:block w-full"
+					className="hidden md:block w-full rounded-lg"
 				/>
 			</div>
 			{/* text container */}
