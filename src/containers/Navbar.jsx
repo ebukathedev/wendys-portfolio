@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { IoMenuOutline } from "react-icons/io5";
-import DesktopMenu from "../components/DesktopMenu";
-import MobileMenu from "../components/MobileMenu";
+import DesktopMenu from "../components/NavBar/DesktopMenu";
+import MobileMenu from "../components/NavBar/MobileMenu";
 import { useState } from "react";
 
 const Navbar = () => {

@@ -1,6 +1,6 @@
 import React from "react";
-import aboutData from "../components/aboutData";
-import SingleAbout from "../components/SingleAbout";
+import aboutData from "../../components/AboutSection/aboutData";
+import SingleAbout from "../../components/AboutSection/SingleAbout";
 
 const AboutSection = () => {
 	return (

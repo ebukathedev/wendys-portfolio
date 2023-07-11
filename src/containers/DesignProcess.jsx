@@ -1,7 +1,7 @@
 import React from "react";
+import DesignBlock from "../components/DesignProcess/DesignBlock";
+import designBlockData from "../components/DesignProcess/designBlocksData";
 import HomeSection from "../components/HomeSection";
-import DesignBlock from "../components/DesignBlock";
-import designBlockData from "../components/designBlocksData";
 
 // gap-x-7 gap-y-14
 

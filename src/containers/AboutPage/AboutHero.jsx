@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import HomeSection from "../components/HomeSection";
+import HomeSection from "../../components/HomeSection";
 import AboutSection from "./AboutSection";
 
 const profilePic =

@@ -1,7 +1,7 @@
 import React from "react";
 import HomeSection from "../components/HomeSection";
-import projectData from "../components/projectData";
-import SingleProject from "../components/SingleProject";
+import projectData from "../components/FeaturedProjects/projectData";
+import SingleProject from "../components/FeaturedProjects/SingleProject";
 
 const FeaturedProjects = ({ children }) => {
 	return (

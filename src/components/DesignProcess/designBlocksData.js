@@ -1,8 +1,8 @@
-import discover from "../assets/images/discover.svg";
-import define from "../assets/images/define.svg";
-import ideate from "../assets/images/ideate.svg";
-import strategize from "../assets/images/strategize.svg";
-import implement from "../assets/images/implement.svg";
+import discover from "../../assets/images/discover.svg";
+import define from "../../assets/images/define.svg";
+import ideate from "../../assets/images/ideate.svg";
+import strategize from "../../assets/images/strategize.svg";
+import implement from "../../assets/images/implement.svg";
 
 const designBlockData = [
 	{

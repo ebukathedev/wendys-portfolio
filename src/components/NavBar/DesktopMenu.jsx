@@ -1,5 +1,5 @@
 import NavLink from "./NavLink";
-import ContactButton from "./ContactButton";
+import ContactButton from "../ContactButton";
 
 const DesktopMenu = () => {
 	return (
