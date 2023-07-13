@@ -2,6 +2,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { BsChevronDoubleRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const SingleProject = ({
 	imgSm,
@@ -23,7 +24,11 @@ const SingleProject = ({
 				data-aos="fade-up"
 				data-aos-duration="1000"
 			>
-				<img src={imgSm} alt={title} className="md:hidden w-full rounded-lg" />
+				<img
+					src={imgSm}
+					alt={title}
+					className="md:hidden w-full rounded-lg"
+				/>
 
 				<img
 					src={imgLg}
@@ -53,15 +58,15 @@ const SingleProject = ({
 						<p className="text-lg font-medium lg:hidden">
 							{description}
 						</p>
-						<a
-							href={link}
-							className="flex py-3 px-4 space-x-1 items-center text-white border-2 border-solid border-white rounded-lg self-start xl:space-x-2 xl:py-4 xl:px-5"
+						<Link
+							to={link}
+							className="flex py-3 px-4 space-x-1 items-center text-white border-2 border-solid border-white rounded-lg self-start xl:space-x-2 xl:py-4 xl:px-5 hover:bg-transparentWhite duration-300 ease-in-out"
 						>
 							<span className="text-lg font-bold xl:text-2xl">
 								View case study
 							</span>
 							<BsChevronDoubleRight className="text-xl text-white xl:text-2xl" />
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

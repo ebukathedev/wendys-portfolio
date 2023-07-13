@@ -13,6 +13,7 @@ module.exports = {
 			colors: {
 				paleWhite: "#E9F5FF",
 				veryPaleWhite: "#E3E4E6",
+				transparentWhite:"rgba(255,255,255,0.1)",
 				darkBlue: "#09172E",
 				lighterDarkBlue: "#0E2345",
 				blurryBlue: "#202C41",
