@@ -13,7 +13,7 @@ module.exports = {
 			colors: {
 				paleWhite: "#E9F5FF",
 				veryPaleWhite: "#E3E4E6",
-				transparentWhite:"rgba(255,255,255,0.1)",
+				transparentWhite: "rgba(255,255,255,0.1)",
 				darkBlue: "#09172E",
 				lighterDarkBlue: "#0E2345",
 				blurryBlue: "#202C41",
@@ -23,6 +23,10 @@ module.exports = {
 				ideate: "#22343C66",
 				strategize: "#2938366B",
 				implement: "#22343C82",
+				rondoPrimary: "#7F2BC2",
+				softPink: "#FFE6E2",
+				softPurple: "#C985FF",
+				rondoBlack: "#263238",
 			},
 			backgroundImage: {
 				"gradient-text":
@@ -33,6 +37,7 @@ module.exports = {
 			fontFamily: {
 				raleway: ["Raleway", "sans-serif"],
 				workSans: ["Work Sans", "sans-serif"],
+				audioWide: ["Audiowide", "sans-serif"],
 			},
 		},
 	},

@@ -6,12 +6,12 @@ import FeaturedProjects from "../containers/FeaturedProjects";
 
 const Home = () => {
 	return (
-		<>
+		<main className="container mx-auto mt-12 px-9 md:px-10 xl:px-24">
 			<Hero />
 			<AboutMe />
 			<DesignProcess />
 			<FeaturedProjects />
-		</>
+		</main>
 	);
 };
 

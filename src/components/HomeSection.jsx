@@ -1,9 +1,9 @@
-import UnderlinedHeading from "./UnderlinedHeading";
+import Heading from "./Heading";
 
 const HomeSection = ({ title, children, spacing }) => {
 	return (
 		<div className={`flex flex-col ${spacing}`}>
-			<UnderlinedHeading name={title} />
+			<Heading name={title} />
 			{children}
 		</div>
 	);

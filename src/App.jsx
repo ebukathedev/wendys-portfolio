@@ -14,7 +14,6 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<main className="container mx-auto mt-12 px-9 md:px-10 xl:px-24">
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/about" element={<About />} />
@@ -24,8 +23,8 @@ function App() {
 					<Route path="/projects/zukky" element={<Zukky />} />
 					<Route path="/projects/obiwezy" element={<ObiWezy />} />
 				</Routes>
-			</main>
-			{/* <Footer /> */}
+			
+			 <Footer /> 
 		</>
 	);
 }

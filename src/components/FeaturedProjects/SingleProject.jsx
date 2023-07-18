@@ -18,7 +18,7 @@ const SingleProject = ({
 	}, []);
 	//
 	return (
-		<div className="flex even:md:flex-row-reverse md:flex-row flex-col space-y-6 md:space-y-0 md:gap-x-4 lg:gap-x-5 xl:gap-x-6 md:items-center lg:items-stretch">
+		<div className="flex flex-col space-y-6 even:md:flex-row-reverse md:flex-row md:space-y-0 md:gap-x-4 lg:gap-x-5 xl:gap-x-6 md:items-center lg:items-stretch">
 			<div
 				className="md:w-1/2"
 				data-aos="fade-up"
@@ -27,13 +27,13 @@ const SingleProject = ({
 				<img
 					src={imgSm}
 					alt={title}
-					className="md:hidden w-full rounded-lg"
+					className="w-full rounded-lg md:hidden"
 				/>
 
 				<img
 					src={imgLg}
 					alt={title}
-					className="hidden md:block w-full rounded-lg"
+					className="hidden w-full rounded-lg md:block"
 				/>
 			</div>
 			{/* text container */}
@@ -44,23 +44,27 @@ const SingleProject = ({
 					data-aos-duration="1000"
 				>
 					<div className="flex flex-col space-y-7 md:space-y-1">
-						<h5 className="uppercase font-semibold text-sm font-workSans tracking-wider xl:text-xl">
+						<h5 className="text-sm font-semibold tracking-wider uppercase font-workSans xl:text-xl">
 							{title}
 						</h5>
-						<h6 className="font-normal text-sm capitalize xl:text-lg">
+						<h6 className="text-sm font-normal capitalize xl:text-lg">
 							{type}
 						</h6>
 					</div>
-					<p className="text-lg font-medium hidden lg:block xl:text-2xl">
+
+					{/* text: Desktop */}
+					<p className="hidden text-lg font-medium lg:block xl:text-2xl">
 						{description}
 					</p>
+
+					{/* text and button: Mobile */}
 					<div className="flex flex-col space-y-8 lg:space-y-0">
 						<p className="text-lg font-medium lg:hidden">
 							{description}
 						</p>
 						<Link
 							to={link}
-							className="flex py-3 px-4 space-x-1 items-center text-white border-2 border-solid border-white rounded-lg self-start xl:space-x-2 xl:py-4 xl:px-5 hover:bg-transparentWhite duration-300 ease-in-out"
+							className="flex items-center self-start px-4 py-3 space-x-1 text-white duration-300 ease-in-out border-2 border-white border-solid rounded-lg xl:space-x-2 xl:py-4 xl:px-5 hover:bg-transparentWhite"
 						>
 							<span className="text-lg font-bold xl:text-2xl">
 								View case study
