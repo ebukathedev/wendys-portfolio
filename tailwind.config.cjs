@@ -27,6 +27,7 @@ module.exports = {
 				softPink: "#FFE6E2",
 				softPurple: "#C985FF",
 				rondoBlack: "#263238",
+				keoPrimary: "#374988",
 			},
 			backgroundImage: {
 				"gradient-text":
