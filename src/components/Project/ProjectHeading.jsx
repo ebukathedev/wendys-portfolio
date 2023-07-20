@@ -6,7 +6,7 @@ const ProjectHeading = ({ title, description, color }) => {
 			>
 				{title}
 			</h3>
-			<p className="text-lg font-medium xl:text-2xl">{description}</p>
+			<p className="text-lg font-medium px-4 xl:text-2xl">{description}</p>
 		</div>
 	);
 };
