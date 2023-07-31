@@ -8,11 +8,13 @@ import KeoWallet from "./pages/Projects/KeoWallet";
 import ObiWezy from "./pages/Projects/ObiWezy";
 import Rondo from "./pages/Projects/Rondo";
 import Zukky from "./pages/Projects/Zukky";
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
 	return (
 		<>
 			<Navbar />
+			<ScrollToTop/>
 			<Routes>
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />

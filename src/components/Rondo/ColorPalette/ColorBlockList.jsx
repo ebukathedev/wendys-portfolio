@@ -11,8 +11,8 @@ const ColorBlockList = () => {
 		<div className="text-[10px] flex flex-col space-y-1 text-veryPaleWhite md:text-xs">
 			<div>Shades</div>
 			<div className="rounded-md w-60 h-10 md:h-14 flex">
-				{colors.map((color) => (
-					<div className={`${color} flex-1`}></div>
+				{colors.map((color, index) => (
+					<div key={index} className={`${color} flex-1`}></div>
 				))}
 			</div>
 		</div>
