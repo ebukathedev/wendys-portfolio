@@ -8,10 +8,10 @@ const UserPersonaIntro = () => {
 				<h2 className="text-2xl font-bold text-center md:text-3xl">
 					User Persona
 				</h2>
-				<p className="max-w-xl mx-auto text-lg font-medium text-left md:px-0 px-9 xl:text-2xl sm:text-center xl:max-w-3xl">
+				<p className="max-w-xl mx-auto text-lg font-medium md:px-0 px-9 xl:text-2xl text-center xl:max-w-3xl">
 					I developed the user persona by performing qualitative
 					research. I got to interview 2 potential end users to help
-					develop a persona
+					develop a persona.
 				</p>
 			</div>
 			<div className="flex flex-col px-4 space-y-4 sm:max-w-lg sm:mx-auto md:max-w-7xl md:flex-row md:px-4 md:space-y-0 md:space-x-4 xl:space-x-6">
