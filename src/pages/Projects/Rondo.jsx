@@ -2,6 +2,7 @@ import ProjectHero from "../../components/Project/ProjectHero";
 import caseStudyData from "../../components/Project/caseStudyData";
 import RondoIntro from "../../containers/Rondo/RondoIntro";
 import UserPersona from "../../containers/Rondo/UserPersona";
+import WireFrames from "../../containers/Rondo/WireFrames";
 
 const {
 	rondo: { title, description, color, mobileBanner, desktopBanner },
@@ -19,6 +20,7 @@ const Rondo = () => {
 			/>
 			<RondoIntro />
 			<UserPersona />
+			<WireFrames />
 		</main>
 	);
 };

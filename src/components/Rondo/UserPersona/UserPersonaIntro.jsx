@@ -1,5 +1,5 @@
-import persona1 from "../../assets/images/user_persona1.png";
-import persona2 from "../../assets/images/user_persona2.png";
+import persona1 from "../../../assets/images/user_persona1.png";
+import persona2 from "../../../assets/images/user_persona2.png";
 
 const UserPersonaIntro = () => {
 	return (

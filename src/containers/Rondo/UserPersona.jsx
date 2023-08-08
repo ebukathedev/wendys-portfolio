@@ -1,9 +1,9 @@
-import UserPersonaIntro from "../../components/Rondo/UserPersonaIntro";
-import UserPersonaInfo from "../../components/Rondo/UserPersonaInfo";
+import UserPersonaIntro from "../../components/Rondo/UserPersona/UserPersonaIntro";
+import UserPersonaInfo from "../../components/Rondo/UserPersona/UserPersonaInfo";
 
 const UserPersona = () => {
 	return (
-		<section className="mb-20">
+		<section>
 			<UserPersonaIntro />
 			<UserPersonaInfo />
 		</section>

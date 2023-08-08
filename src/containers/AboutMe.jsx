@@ -13,7 +13,7 @@ const AboutMe = () => {
 				spacing="space-y-7 lg:space-y-9 xl:space-y-12"
 			>
 				<div
-					className="flex flex-col space-y-9 md:space-y-0 text-paleWhite mx-auto text-lg font-medium md:text-center max-w-2xl lg:text-xl lg:max-w-3xl xl:max-w-4xl xl:text-2xl md:font-normal"
+					className="flex flex-col max-w-2xl mx-auto text-lg font-medium space-y-9 md:space-y-0 text-paleWhite md:text-center lg:text-xl lg:max-w-3xl xl:max-w-4xl xl:text-2xl md:font-normal"
 					data-aos="fade-up"
 					data-aos-duration="1000"
 				>
