@@ -1,27 +1,22 @@
 import { useState, useEffect } from "react";
 import { BiSolidChevronLeft, BiSolidChevronRight } from "react-icons/bi";
 
-const PhoneCarousel = ({
+const DoublePhoneCarousel = ({
 	children: images,
 	doubleImagesArray,
-	isDouble = false,
 	autoSlide = false,
 	autoSlideInterval = 3000,
 }) => {
 	const [current, setCurrent] = useState(0);
 	const prev = () => {
 		setCurrent((current) =>
-			current === 0
-				? (isDouble ? doubleImagesArray : images).length - 1
-				: current - 1
+			current === 0 ? doubleImagesArray.length - 1 : current - 1
 		);
 	};
 
 	const next = () => {
 		setCurrent((current) =>
-			current === (isDouble ? doubleImagesArray : images).length - 1
-				? 0
-				: current + 1
+			current === doubleImagesArray.length - 1 ? 0 : current + 1
 		);
 	};
 
@@ -32,7 +27,7 @@ const PhoneCarousel = ({
 	}, []);
 
 	return (
-		<div className={`${isDouble ? "max-w-[658px]" : "max-w-xs"} mx-auto`}>
+		<div>
 			<div className="overflow-hidden relative">
 				{/* image container */}
 				<div
@@ -60,9 +55,9 @@ const PhoneCarousel = ({
 				</div>
 			</div>
 			{/* indicators */}
-			<div className="mt-2 md:mt-4">
+			<div className="mt-2">
 				<div className="flex items-center justify-center gap-2">
-					{(isDouble ? doubleImagesArray : images).map((_, index) => (
+					{(true ? images : doubleImagesArray).map((_, index) => (
 						<div
 							key={index}
 							className={`transition-all w-3 h-1 bg-white rounded-xl ease-in-out duration-500 ${
@@ -76,4 +71,4 @@ const PhoneCarousel = ({
 	);
 };
 
-export default PhoneCarousel;
+export default DoublePhoneCarousel;

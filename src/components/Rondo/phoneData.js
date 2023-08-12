@@ -11,6 +11,11 @@ import smallFrame3 from "../../assets/images/wireframes/sm-frame3.png";
 
 const phoneData = {
 	wire_frames: {
+		doubleImages: [
+			[frame1, frame2],
+			[frame3, frame4],
+			[frame5, frame6],
+		],
 		mobileImages: [frame1, frame2, frame3, frame4, frame5, frame6],
 		desktopImages: {
 			group1: [frame1, frame2, frame3],
