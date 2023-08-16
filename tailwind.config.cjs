@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 
-
 module.exports = {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
@@ -41,6 +40,10 @@ module.exports = {
 				"rondoPrimary-300": "#672899",
 				"rondoPrimary-400": "#431666",
 				"rondoPrimary-500": "#210B33",
+				"mockup-100": "#4FDEE8",
+				"mockup-200": "#C985FF",
+				"mockup-300": "#4AE086",
+				"mockup-400": "#DCCA27",
 			},
 			backgroundImage: {
 				"gradient-text":
