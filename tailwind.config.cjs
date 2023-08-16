@@ -12,6 +12,9 @@ module.exports = {
 			xl: "1440px",
 		},
 		extend: {
+			animation: {
+				"bounce-slow": "bounce 2s infinite",
+			},
 			colors: {
 				paleWhite: "#E9F5FF",
 				veryPaleWhite: "#E3E4E6",

@@ -1,5 +1,6 @@
 import ProjectHero from "../../components/Project/ProjectHero";
 import caseStudyData from "../../components/Project/caseStudyData";
+import LandingPage from "../../containers/Rondo/LandingPage";
 import Mockups from "../../containers/Rondo/Mockups";
 import RondoIntro from "../../containers/Rondo/RondoIntro";
 import UserPersona from "../../containers/Rondo/UserPersona";
@@ -15,6 +16,7 @@ const Rondo = () => {
 			<UserPersona />
 			<WireFrames />
 			<Mockups />
+			<LandingPage />
 		</main>
 	);
 };
