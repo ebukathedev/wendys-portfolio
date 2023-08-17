@@ -1,24 +1,37 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { BiSolidChevronUp } from "react-icons/bi";
 
 const buttonStyles =
 	"bg-blurryBlue rounded-full flex p-1 hover:text-orange transition-colors ease-in-out";
 
 const ScrollToTopButton = () => {
-	const [count, setCount] = useState(0);
+	const [showTopBtn, setShowTopBtn] = useState(false);
 
-	const handleClick = () => {
-		setCount(count + 1);
-		console.log(`scroll button clicked: ${count}`);
-		window.scrollTo(0, 0);
+	useEffect(() => {
+		window.addEventListener("scroll", () => {
+			if (window.scrollY > 500) {
+				setShowTopBtn(true);
+			} else {
+				setShowTopBtn(false);
+			}
+		});
+	}, []);
+
+	const goToTop = () => {
+		window.scrollTo({
+			top: 0,
+			behavior: "smooth",
+		});
 	};
 
 	return (
-		<div className="z-50 fixed p-[2px] bg-gradient-text rounded-full bottom-10 right-5 md:right-10 animate-bounce-slow">
-			<button className={buttonStyles} onClick={handleClick}>
-				<BiSolidChevronUp size={30} />
-			</button>
-		</div>
+		showTopBtn && (
+			<div className="z-50 fixed p-[2px] bg-gradient-text rounded-full bottom-10 right-5 md:right-10 animate-bounce-slow">
+				<button className={buttonStyles} onClick={goToTop}>
+					<BiSolidChevronUp size={30} />
+				</button>
+			</div>
+		)
 	);
 };
 

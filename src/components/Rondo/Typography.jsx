@@ -16,7 +16,7 @@ const Typography = () => {
 						<span className="text-4xl text-grayPrimary font-extrabold mt-3 lg:mt-0 origin-bottom lg:rotate-[10deg] lg:text-5xl mlg:text-[4rem] mlg:rotate-0">
 							/
 						</span>
-						<div className="font-bold text-[16px] lg:text-xl -mb-2 mlg:-mb-0 mlg:text-2xl">
+						<div className="font-bold text-md lg:text-xl -mb-2 mlg:-mb-0 mlg:text-2xl">
 							<span className="text-darkGray">
 								Typeface <br /> by{" "}
 							</span>

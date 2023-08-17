@@ -14,6 +14,7 @@ module.exports = {
 		extend: {
 			animation: {
 				"bounce-slow": "bounce 2s infinite",
+				"ping-slow": "ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite",
 			},
 			colors: {
 				paleWhite: "#E9F5FF",
@@ -38,15 +39,17 @@ module.exports = {
 				graySecondary: "#BDBDBD",
 				darkGray: "#999",
 				colorPaletteBg: "#fafafa",
+				brightCyan: "#4FDEE8",
+				limeGreen: "#4AE086",
+				goldenYellow: "#DCCA27",
+				warningRed: "#FF3023",
+				darkViolet: "#9D72BF",
+				seaBlue: "#2763D9",
 				"rondoPrimary-100": "#A738FF",
 				"rondoPrimary-200": "#872FCC",
 				"rondoPrimary-300": "#672899",
 				"rondoPrimary-400": "#431666",
 				"rondoPrimary-500": "#210B33",
-				"mockup-100": "#4FDEE8",
-				"mockup-200": "#C985FF",
-				"mockup-300": "#4AE086",
-				"mockup-400": "#DCCA27",
 			},
 			backgroundImage: {
 				"gradient-text":
@@ -59,6 +62,9 @@ module.exports = {
 				workSans: ["Work Sans", "sans-serif"],
 				audioWide: ["Audiowide", "sans-serif"],
 				inter: ["Inter", "sans-serif"],
+			},
+			fontSize: {
+				md: "1rem",
 			},
 		},
 	},

@@ -11,7 +11,7 @@ const Mockups = () => {
 			<div className="text-center flex flex-col space-y-16 md:space-y-8 lg:space-y-16 md:px-4 lg:px-8">
 				<Heading title="High fidelity Mockups" />
 				{/* <TextSection title="High fidelity Mockups" /> */}
-				<div className="flex flex-col items-center space-y-20 md:flex-row mlg:flex-wrap md:justify-between md:space-y-0 md:items-start mlg:w-full mlg:max-w-[1168px] mx-auto">
+				<div className="flex flex-col items-center space-y-20 md:flex-row mlg:flex-wrap md:justify-between md:space-y-0 md:items-start mlg:w-full mlg:max-w-[1168px] xl:max-w-[1200px] mx-auto">
 					{mockups.map(({ image, style, id }) => (
 						<div
 							key={id}
