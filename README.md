@@ -3,7 +3,7 @@
 ## Introduction
 Welcome to Wendy's portfolio website! This project showcases Wendy's skills, projects, and experiences in Product Design. The website is built using React and styled with Tailwind CSS, creating a dynamic and visually appealing platform to explore Wendy's journey and achievements.
 
-[Visit the live portfolio](https://www.wendy-enyinnaya.vercel.ap)
+[Visit the live portfolio](https://wendys-portfolio.vercel.app/)
 
 ## Screenshots
 ![Home Section](https://res.cloudinary.com/drtebxtdt/image/upload/v1692367874/wendys%20portfolio/thumbnails/screenshots/home_bqjdzn.png)
