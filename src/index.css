@@ -19,6 +19,12 @@
 		font-family: "Inter";
 		src: url("src/assets/font/Inter.ttf");
 	}
+
+	html,
+	body {
+		scroll-behavior: smooth;
+		overflow: hidden;
+	}
 	a {
 		@apply font-raleway;
 	}

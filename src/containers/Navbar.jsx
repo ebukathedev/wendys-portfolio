@@ -13,11 +13,17 @@ const Navbar = () => {
 			{/* logo and hamburger menu */}
 			<div className="flex justify-between items-center flex-1 md:flex-grow-0">
 				{/* logo */}
-				<Link
+				{/* <Link
 					to="/"
 					className="font-bold text-2xl gradient-text md:text-4xl xl:text-[42px]"
 				>
 					W.E
+				</Link> */}
+				<Link
+					to="/"
+					className="font-bold text-lg gradient-text flex gap-1 gap-y-0"
+				>
+					<span>Wendy</span> <span>Enyinnaya</span>
 				</Link>
 				<IoMenuOutline
 					className="text-white text-4xl md:hidden"
@@ -25,8 +31,9 @@ const Navbar = () => {
 				/>
 			</div>
 			{/* Menu */}
-			<DesktopMenu />
+
 			<MobileMenu isOpen={isOpen} toggleMenu={toggleMenu} />
+			<DesktopMenu />
 		</nav>
 	);
 };
