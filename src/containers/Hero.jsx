@@ -1,12 +1,13 @@
-import { useEffect } from "react";
-import { CiLinkedin } from "react-icons/ci";
-import { CiMail } from "react-icons/ci";
-import wavingHand from "../assets/images/waving_hand.svg";
-import coderGirl from "../assets/images/coder_girl.svg";
-import avatar from "../assets/images/avatar.svg";
-import ContactLink from "../components/ContactLink";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useEffect } from "react";
+import { ImBehance2 } from "react-icons/im";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { Link } from "react-router-dom";
+import avatar from "../assets/images/avatar.svg";
+import coderGirl from "../assets/images/coder_girl.svg";
+import wavingHand from "../assets/images/waving_hand.svg";
+import Button from "../components/ui/Button";
 
 const Hero = () => {
 	useEffect(() => {
@@ -48,22 +49,30 @@ const Hero = () => {
 					</div>
 				</h2>
 				<div
-					className="flex flex-col space-y-3 text-paleWhite"
+					className="flex text-paleWhite gap-3 flex-wrap md:gap-4"
 					data-aos="fade-up"
 					data-aos-duration="1500"
 				>
-					<ContactLink
-						name="chiwendy1@gmail.com"
+					<Button
 						href="mailto:chiwendy1@gmail.com"
+						className="py-3 px-8"
 					>
-						<CiMail className="text-2xl xl:text-3xl" />
-					</ContactLink>
-					<ContactLink
-						name="linkedin.com/in/wendy-enyinnaya"
-						href="https://www.linkedin.com/in/wendy-enyinnaya"
-					>
-						<CiLinkedin className="text-2xl xl:text-3xl" />
-					</ContactLink>
+						Get in touch
+					</Button>
+					<div className="flex gap-3 md:gap-4">
+						<Button
+							href="https://www.linkedin.com/in/wendy-enyinnaya"
+							className="py-2 px-5 md:px-8 text-2xl h-full items-center flex justify-center"
+						>
+							<IoLogoLinkedin />
+						</Button>
+						<Button
+							href="https://www.behance.net/chichiwendy"
+							className="py-[14px] px-5 md:px-8 text-2xl h-full items-center flex justify-center"
+						>
+							<ImBehance2 />
+						</Button>
+					</div>
 				</div>
 			</div>
 			<div
