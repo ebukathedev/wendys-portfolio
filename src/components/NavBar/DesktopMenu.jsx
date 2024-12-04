@@ -3,7 +3,7 @@ import ContactButton from "../ContactButton";
 
 const DesktopMenu = () => {
 	return (
-		<div className="hidden md:flex flex-1 items-center justify-between">
+		<div className="hidden md:flex flex-1 items-center justify-between h-full">
 			{/* links */}
 
 			<div className="flex flex-1 justify-center space-x-14 lg:space-x-20 xl:space-x-28">

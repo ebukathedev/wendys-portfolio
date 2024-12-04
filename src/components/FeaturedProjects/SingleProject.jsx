@@ -40,7 +40,7 @@ const SingleProject = ({
 			<div className="md:w-1/2">
 				<div
 					className="flex flex-col space-y-7 text-veryPaleWhite md:max-w-md xl:max-w-xl md:h-full lg:space-y-0 lg:justify-evenly"
-					data-aos="fade-down"
+					data-aos="fade-up"
 					data-aos-duration="1000"
 				>
 					<div className="flex flex-col space-y-7 md:space-y-1">

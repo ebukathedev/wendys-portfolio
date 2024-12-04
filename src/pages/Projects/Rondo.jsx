@@ -10,7 +10,7 @@ const { rondo } = caseStudyData;
 
 const Rondo = () => {
 	return (
-		<main className="overflow-hidden">
+		<main className="overflow-hidden mt-[150px] md:mt-[180px]">
 			<ProjectHero {...rondo} />
 			<RondoIntro />
 			<UserPersona />
