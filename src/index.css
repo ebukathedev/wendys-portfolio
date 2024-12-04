@@ -20,6 +20,11 @@
 		src: url("src/assets/font/Inter.ttf");
 	}
 
+	html,
+	body {
+		scroll-behavior: smooth;
+	}
+	
 	a {
 		@apply font-raleway;
 	}
