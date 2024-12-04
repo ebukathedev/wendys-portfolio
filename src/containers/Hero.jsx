@@ -84,6 +84,8 @@ const Hero = () => {
 				<div className="flex justify-center">
 					<img
 						src={avatar}
+						width={135}
+						height={132}
 						alt="3d avatar"
 						className="relative z-10 md:w-36 lg:w-44"
 					/>

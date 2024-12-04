@@ -1,7 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import ContactButton from "../components/ContactButton";
+import Button from "../components/ui/Button";
 
 const year = new Date().getFullYear();
 
@@ -26,7 +26,7 @@ const Footer = () => {
 						Say hi
 					</p>
 				</div>
-				<ContactButton />
+				<Button href="mailto:chiwendy1@gmail.com">Contact me</Button>
 				<span className="text-sm font-medium mt-4 xl:text-lg">
 					All rights reserved © Wendy Enyinnaya {year}
 				</span>

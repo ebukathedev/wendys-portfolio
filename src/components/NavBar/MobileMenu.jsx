@@ -1,5 +1,5 @@
+import Button from "../ui/Button";
 import NavLink from "./NavLink";
-import ContactButton from "../ContactButton";
 import { IoCloseOutline } from "react-icons/io5";
 
 const menuStyles = `fixed top-0 left-0 right-0 bottom-0 z-50 bg-darkBlue md:hidden ease-in=out duration-300`;
@@ -29,7 +29,9 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
 						toggleMenu={toggleMenu}
 					/>
 					{/* Button */}
-					<ContactButton additionalClass="self-start" />
+					<Button href="mailto:chiwendy1@gmail.com">
+						Contact me
+					</Button>
 				</div>
 			</div>
 		</div>

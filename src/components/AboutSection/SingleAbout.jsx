@@ -17,7 +17,7 @@ const SingleAbout = ({ title, description, descriptionContinued }) => {
 			</div>
 			<div
 				className="w-3/5 xl:w-3/4 text-paleWhite max-[359px]:w-full"
-				data-aos="fade-down"
+				data-aos="fade-up"
 				data-aos-duration="1000"
 			>
 				<p className="text-lg font-medium xl:text-3xl xl:leading-loose">

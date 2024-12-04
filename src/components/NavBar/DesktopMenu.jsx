@@ -1,5 +1,5 @@
 import NavLink from "./NavLink";
-import ContactButton from "../ContactButton";
+import Button from "../ui/Button";
 
 const DesktopMenu = () => {
 	return (
@@ -12,7 +12,7 @@ const DesktopMenu = () => {
 				<NavLink to="/projects" name="Projects" />
 			</div>
 			{/* Button */}
-			<ContactButton />
+			<Button href="mailto:chiwendy1@gmail.com">Contact me</Button>
 		</div>
 	);
 };
